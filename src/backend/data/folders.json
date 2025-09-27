@@ -1,0 +1,23 @@
+{
+  "carpetas": [
+    {
+      "id": "123456789",
+      "nombre": "Documentos Importantes",
+      "ruta": "/ruta/a/documentos",
+      "descripcion": "Carpeta con documentos importantes",
+      "fechaCreacion": "2024-01-15T10:30:00.000Z",
+      "ultimoEscaneo": "2024-01-20T15:45:00.000Z",
+      "archivos": [
+        {
+          "nombre": "contrato.pdf",
+          "ruta": "/ruta/a/documentos/contrato.pdf",
+          "esDirectorio": false,
+          "tamaño": 1024576,
+          "modificado": "2024-01-18T09:15:00.000Z",
+          "url": "/archivos/contrato.pdf"
+        }
+      ]
+    }
+  ],
+  "ultimaActualizacion": "2024-01-20T16:00:00.000Z"
+}

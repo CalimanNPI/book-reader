@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Archivos</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .carpeta { border: 1px solid #ddd; padding: 15px; margin: 10px 0; }
+        .archivo { padding: 5px; border-bottom: 1px solid #eee; }
+        .btn { padding: 8px 15px; margin: 5px; cursor: pointer; }
+        .form-group { margin: 10px 0; }
+        input, textarea { width: 300px; padding: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Gestor de Carpetas y Archivos</h1>
+    
+    <!-- Formulario para agregar carpeta -->
+    <div>
+        <h2>Agregar Nueva Carpeta</h2>
+        <form id="formCarpeta">
+            <div class="form-group">
+                <label>Nombre:</label>
+                <input type="text" id="nombreCarpeta" required>
+            </div>
+            <div class="form-group">
+                <label>Ruta:</label>
+                <input type="text" id="rutaCarpeta" required>
+            </div>
+            <div class="form-group">
+                <label>Descripción:</label>
+                <textarea id="descripcionCarpeta"></textarea>
+            </div>
+            <button type="submit" class="btn">Agregar Carpeta</button>
+        </form>
+    </div>
+    
+    <!-- Lista de carpetas -->
+    <div id="listaCarpetas"></div>
+    
+    <!-- Detalles de archivos -->
+    <div id="detallesArchivos" style="display: none;">
+        <h2>Archivos en la Carpeta</h2>
+        <div id="listaArchivos"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
