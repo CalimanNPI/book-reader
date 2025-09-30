@@ -7,11 +7,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "node src/backend/config/server.js"
+    "test": "node src/index.js"
   },
   "dependencies": {
     "adm-zip": "^0.5.16",
     "cors": "^2.8.5",
+    "ejs": "^3.1.10",
     "epubjs": "^0.3.93",
     "express": "^5.1.0",
     "handlebars": "^4.7.8",
